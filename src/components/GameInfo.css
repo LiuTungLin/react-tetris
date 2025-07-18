@@ -1,0 +1,10 @@
+.game-info {
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    div {
+        margin: 5px 0;
+    }
+}

@@ -1,0 +1,30 @@
+.tetris-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    .game-container {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+
+        .left-panel {
+            width: 150px;
+        }
+
+        .game-board {
+            position: relative;
+            background: #333;
+            border: 2px solid #555;
+            border-radius: 5px;
+        }
+
+        .right-panel {
+            width: 150px;
+        }
+    }
+}

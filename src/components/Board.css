@@ -1,0 +1,15 @@
+.board-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.board-row {
+    display: flex;
+}
+
+.board-cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #555;
+    box-sizing: border-box;
+}

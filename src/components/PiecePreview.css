@@ -1,0 +1,15 @@
+.piece-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
+
+.preview-row {
+    display: flex;
+    gap: 1px;
+}
+
+.preview-cell {
+    box-sizing: border-box;
+}
